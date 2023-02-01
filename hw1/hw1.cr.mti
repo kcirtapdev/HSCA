@@ -1,0 +1,22 @@
+{C:/Users/Pat/OneDrive/School/2023 Spring/HSCA/hw1/simplearithmetic.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Pat/OneDrive/School/2023 Spring/HSCA/hw1/simplearithmetic.sv}
+Model Technology ModelSim SE-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module simplearithmetic
+
+Top level modules:
+	simplearithmetic
+
+} {} {}} C:/Users/Pat/Desktop/HSCA/hw1/simplearithmetic.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Pat/Desktop/HSCA/hw1/simplearithmetic.sv
+Model Technology ModelSim SE-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module simplearithmetic
+
+Top level modules:
+	simplearithmetic
+
+} {} {}} C:/Users/Pat/Desktop/HSCA/hw1/simplearithmetic_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Pat/Desktop/HSCA/hw1/simplearithmetic_tb.sv
+Model Technology ModelSim SE-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module simplearithmetic_tb
+
+Top level modules:
+	simplearithmetic_tb
+
+} {} {}}
