@@ -17,8 +17,8 @@ module simplearithmetic_tb;
         begin
             // Generate random numbers based on the seed given
             assign A = $urandom(seed + i)%20;
-            assign B = $urandom(seed + i)%20;
-            assign C = $urandom(seed + i)%20;
+            assign B = $urandom(seed + i * 2)%20;
+            assign C = $urandom(seed + i * 3)%20;
 
             // Display iteration, random values, and the result
             #5 $display ("Iteration %0d", i);

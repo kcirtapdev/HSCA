@@ -21,7 +21,7 @@ module mux8_tb;
     integer seed = 540; // change seed to generate new random numbers
 
     always @(posedge clk) begin
-        assign s = $urandom(seed + (count * 9))%8;
+        assign s = $urandom(seed + (count * 9))%7;
         assign count = count + 1;
 
         #0 $display("Value of y = %d", y);
@@ -30,13 +30,13 @@ module mux8_tb;
     initial begin
         // Generate random numbers based on the seed given
         assign d0 = $urandom(seed)%20;
-        assign d1 = $urandom(seed + 2)%20;
-        assign d2 = $urandom(seed + 3)%20;
-        assign d3 = $urandom(seed + 4)%20;
-        assign d4 = $urandom(seed + 5)%20;
-        assign d5 = $urandom(seed + 6)%20;
-        assign d6 = $urandom(seed + 7)%20;
-        assign d7 = $urandom(seed + 8)%20;
+        assign d1 = $urandom(seed * 2)%20;
+        assign d2 = $urandom(seed * 3)%20;
+        assign d3 = $urandom(seed * 4)%20;
+        assign d4 = $urandom(seed * 5)%20;
+        assign d5 = $urandom(seed * 6)%20;
+        assign d6 = $urandom(seed * 7)%20;
+        assign d7 = $urandom(seed * 8)%20;
 
         // Display iteration, random values, and the result
         #0 $display ("Value of d0 = %0d", d0);
