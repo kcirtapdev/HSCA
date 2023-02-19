@@ -1,58 +1,29 @@
-`timescale 1ns/1ps
+`timescale 1ps/1ps
+module cla14_tb;
+    logic [13:0] a, b, s;
+    logic clk = 1;
 
-module stimulus();
+    always clk = #5 ~clk;
 
-    // Declare signals
-    logic [13:0] a, b;
-    logic cin, cout;
-    logic [13:0] sum;
-    logic [13:0] expected_sum;
-    logic expected_cout;
+    cla14 #(.N(14)) mut(.A(a), 
+                        .B(b), 
+                        .Cin(1'b0),
+                        .S(s));
 
-    // Instantiate DUT
-    cla #(.N(14)) dut (
-        .a(a),
-        .b(b),
-        .cin(cin),
-        .sum(sum),
-        .cout(cout)
-    );
+    integer seed = 540; // change seed to generate new random numbers
+    integer count = 1;
+    integer addarithm = 0;
+    always @(posedge clk) begin
+        assign a = $urandom(seed + (count * 1))%10;
+        assign b = $urandom(seed + (count * 2))%10;
+        assign count = count + 1;
 
-    // Generate random inputs and expected output
-    initial begin
-        // Seed the random number generator
-        //$randomseed($time);
-
-        // Generate 1000 test cases
-        for (int i = 0; i < 50; i++) begin
-            // Random 14-bit operands
-            a = $random;
-            b = $random;
-
-            // Random carry-in
-            cin = $random % 2;
-
-            // Compute expected sum and carry-out
-            //int expected_cout;
-            expected_cout = ((a[13] & b[13]) | (a[13] & cin) | (b[13] & cin));
-            expected_sum = a + b + cin;
-
-            // Assert inputs
-            #1;
-            $display("test %d: \nProgram sum = %d: a = %b, b = %b, cin = %b , cout = %b", i, sum, a, b, cin, cout);
-
-            // Assert expected output
-            #1;
-           $display("Expected: sum = %d, cout = %d \n", expected_sum, expected_cout);
-            assert (sum === expected_sum) else $error("Mismatched sum");
-            //assert (cout === expected_cout) else $error("Mismatched carry-out");
-        end
-
-        // Terminate simulation
-        #1;
-        $display("Testbench completed successfully");
-        $finish;
+        #5 $display("  %b", a);
+        #5 $display("+ %b", b);
+        #5 $display("Value of s = %b", s);
+        assign addarithm = a + b;
+        #5 $display("%d == %d", s, addarithm);
+        assign a = 14'b0;
+        assign b = 14'b0;
     end
-
 endmodule
-

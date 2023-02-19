@@ -1,0 +1,116 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Projects/PatricksArch/HSCA/hw2
+T_opt
+!s110 1676789921
+V>^:LY66b<z[b]QjEMzgfK0
+04 8 4 work cla14_tb fast 0
+=1-d45d6450d47a-63f1c8a1-27-3de4
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7f;67
+vbclg3
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1676789920
+!i10b 1
+!s100 Vl6DDh=JOoCDjdAHT]iRE2
+I_D_JgRHB7Dl79dbh?YDBo3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 cla14_sv_unit
+S1
+R0
+Z6 w1676789560
+Z7 8cla14.sv
+Z8 Fcla14.sv
+L0 141
+Z9 OL;L;10.7f;67
+r1
+!s85 0
+31
+Z10 !s108 1676789920.000000
+Z11 !s107 cla14.sv|cla14_tb.sv|
+Z12 !s90 cla14_tb.sv|cla14.sv|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcla14
+R2
+R3
+!i10b 1
+!s100 lSWJ89UZKfAQ2OaYg>jR50
+IDmUd0:SLYl2N`5[z5dBAo3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vcla14_tb
+R2
+R3
+!i10b 1
+!s100 n2K2[DeO@7GU7_2Yd1>TD0
+IlH^NK3]D2289PMoEnQ1hh0
+R4
+!s105 cla14_tb_sv_unit
+S1
+R0
+w1676789915
+8cla14_tb.sv
+Fcla14_tb.sv
+L0 2
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vRFA
+R2
+R3
+!i10b 1
+!s100 AN3IjfYBlZd2iXIzYB5C_1
+I<XW@8B<T^z`zEXkCE:M343
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 132
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@r@f@a

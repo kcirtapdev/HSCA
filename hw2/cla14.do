@@ -27,17 +27,17 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog mux8.sv 14cpa_tb.sv
+vlog cla14_tb.sv cla14.sv
 
 # start and run simulation
-vsim -voptargs=+acc work.14cpa_tb 
+vsim -voptargs=+acc work.cla14_tb 
 
 view list
 view wave
 
 -- display input and output signals as hexidecimal values
 # Diplays All Signals recursively
-add wave -hex -r /14cpa_tb/*
+add wave -hex -r /*
 
 -- Set Wave Output Items 
 TreeUpdate [SetDefaultTree]
