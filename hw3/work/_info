@@ -1,7 +1,8 @@
 m255
 K4
 z2
-!s99 nomlopt
+Z0 !s99 nomlopt
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -9,110 +10,122 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Dusty/OneDrive/School/2023 Spring/HSCA/HSCA/hw3
+Z1 dC:/Users/Dusty/OneDrive/School/2023 Spring/HSCA/HSCA/hw3
 T_opt
-Z1 !s110 1677287592
+!s110 1677287592
 VkziLJ@?dGUkh>W>C`oE2?2
-04 7 4 work mult_tb fast 0
+Z2 04 7 4 work mult_tb fast 0
 =1-54bf6423099f-63f960a8-1cb-348c
-!s124 OEM100
-o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
 n@_opt
-OL;O;2021.1;73
-vfull_adder
-Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 OL;O;2021.1;73
 R1
+T_opt1
+!s110 1677290115
+Vn;54NNe1nA1QJ=^<fj71V3
+R2
+=1-54bf6423099f-63f96a83-8f-23fc
+R3
+R4
+R5
+n@_opt1
+R6
+R1
+vfull_adder
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1677290216
 !i10b 1
 !s100 aQ@ZU[]azYBTd?4GIEY4?2
 IJf=dEZmST1jSokn_gHZPY3
 S1
-R0
-Z4 w1677287583
-Z5 8mult.sv
-Z6 Fmult.sv
+R1
+Z9 w1677287583
+Z10 8mult.sv
+Z11 Fmult.sv
 !i122 0
 L0 321 11
-Z7 VDg1SIo80bB@j0V0VzS_@n1
-Z8 OL;L;2021.1;73
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z9 !s108 1677287591.000000
-Z10 !s107 mult.sv|mult_tb.sv|
-Z11 !s90 mult_tb.sv|mult.sv|
+Z14 !s108 1677290216.000000
+!s107 mult.sv|mult_tb.sv|
+Z15 !s90 -reportprogress|300|mult_tb.sv|mult.sv|
 !i113 0
-Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z16 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
 vhalf_adder
-R3
-R1
+R7
+R8
 !i10b 1
 !s100 eJ8[SZaBUkZNW_;2A=WN:0
 IeMSKi4>a9@ZzoU3z5m_D50
 S1
-R0
-R4
-R5
-R6
-!i122 0
-L0 310 9
-R7
-R8
-r1
-!s85 0
-31
+R1
 R9
 R10
 R11
-!i113 0
+!i122 0
+L0 310 9
 R12
-R2
+R13
+r1
+!s85 0
+31
+R14
+Z17 !s107 mult.sv|mult_tb.sv|
+R15
+!i113 0
+R16
+R5
 vmult
-R3
-R1
+R7
+R8
 !i10b 1
 !s100 kihhm293`cjbb>V=6jc@70
 I2G]Em<8=J5`16^CgjHe<H1
 S1
-R0
-R4
-R5
-R6
-!i122 0
-L0 1 307
-R7
-R8
-r1
-!s85 0
-31
+R1
 R9
 R10
 R11
-!i113 0
+!i122 0
+L0 1 307
 R12
-R2
+R13
+r1
+!s85 0
+31
+R14
+R17
+R15
+!i113 0
+R16
+R5
 vmult_tb
-R3
-R1
+R7
+R8
 !i10b 1
 !s100 3[j8[H3GBm>E;ecS;G9S^0
 I^f=>F@EUHg=KKG:0VVnIa3
 S1
-R0
-w1677286968
+R1
+w1677290095
 8mult_tb.sv
 Fmult_tb.sv
 !i122 0
 L0 3 42
-R7
-R8
+R12
+R13
 r1
 !s85 0
 31
-R9
-R10
-R11
+R14
+R17
+R15
 !i113 0
-R12
-R2
+R16
+R5

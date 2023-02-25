@@ -29,7 +29,7 @@ module mult_tb ();;
             #5 $display("Passed!!!!");
         else
             #5 $display("FAILED!!!");
-
+        
         if (positive == 0) begin
             assign X = $random(seed * count)%65536;
             assign Y = Y + 1;
