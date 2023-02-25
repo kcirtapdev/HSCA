@@ -1,6 +1,6 @@
 # do mult_tb.do
 # Model Technology ModelSim SE-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
-# Start time: 19:02:52 on Feb 24,2023
+# Start time: 19:13:11 on Feb 24,2023
 # vlog mult_tb.sv mult.sv 
 # -- Compiling module mult_tb
 # -- Compiling module mult
@@ -9,10 +9,10 @@
 # 
 # Top level modules:
 # 	mult_tb
-# End time: 19:02:52 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:13:12 on Feb 24,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.mult_tb 
-# Start time: 19:02:52 on Feb 24,2023
+# Start time: 19:13:12 on Feb 24,2023
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "mult_tb(fast)".
 # //  ModelSim SE-64 2021.1 Jan 19 2021
@@ -1062,5 +1062,3 @@
 # * Y =  126
 # Value of Z =   3489444
 # Passed!!!!
-# End time: 19:02:54 on Feb 24,2023, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0

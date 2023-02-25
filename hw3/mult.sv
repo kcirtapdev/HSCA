@@ -1,8 +1,8 @@
 module mult (Z_out, X_in, Y_in);
 	
-	input logic signed [7:0] Y_in;
-	input logic signed [15:0] X_in;
-	output logic signed [23:0] Z_out;
+	input logic [7:0] Y_in;
+	input logic [15:0] X_in;
+	output logic [23:0] Z_out;
 	logic [7:0] Y;
 	logic [15:0] X;
 	logic [23:0] Z;
