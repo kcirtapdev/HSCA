@@ -1,0 +1,1021 @@
+#   X =      1
+# * Y = -128
+# Value of Z =      -128
+# Passed!!!!
+#   X =  -5624
+# * Y = -127
+# Value of Z =    714248
+# Passed!!!!
+#   X = -23570
+# * Y = -126
+# Value of Z =   2969820
+# Passed!!!!
+#   X = -17384
+# * Y = -125
+# Value of Z =   2173000
+# Passed!!!!
+#   X =  -6791
+# * Y = -124
+# Value of Z =    842084
+# Passed!!!!
+#   X = -29655
+# * Y = -123
+# Value of Z =   3647565
+# Passed!!!!
+#   X =   7626
+# * Y = -122
+# Value of Z =   -930372
+# Passed!!!!
+#   X =  24121
+# * Y = -121
+# Value of Z =  -2918641
+# Passed!!!!
+#   X = -25218
+# * Y = -120
+# Value of Z =   3026160
+# Passed!!!!
+#   X =  12362
+# * Y = -119
+# Value of Z =  -1471078
+# Passed!!!!
+#   X =    348
+# * Y = -118
+# Value of Z =    -41064
+# Passed!!!!
+#   X =    602
+# * Y = -117
+# Value of Z =    -70434
+# Passed!!!!
+#   X =   9694
+# * Y = -116
+# Value of Z =  -1124504
+# Passed!!!!
+#   X = -11157
+# * Y = -115
+# Value of Z =   1283055
+# Passed!!!!
+#   X =  16744
+# * Y = -114
+# Value of Z =  -1908816
+# Passed!!!!
+#   X = -23429
+# * Y = -113
+# Value of Z =   2647477
+# Passed!!!!
+#   X =   2780
+# * Y = -112
+# Value of Z =   -311360
+# Passed!!!!
+#   X =  30347
+# * Y = -111
+# Value of Z =  -3368517
+# Passed!!!!
+#   X =  25157
+# * Y = -110
+# Value of Z =  -2767270
+# Passed!!!!
+#   X =  18588
+# * Y = -109
+# Value of Z =  -2026092
+# Passed!!!!
+#   X = -18182
+# * Y = -108
+# Value of Z =   1963656
+# Passed!!!!
+#   X =   6828
+# * Y = -107
+# Value of Z =   -730596
+# Passed!!!!
+#   X = -29478
+# * Y = -106
+# Value of Z =   3124668
+# Passed!!!!
+#   X =  -5443
+# * Y = -105
+# Value of Z =    571515
+# Passed!!!!
+#   X = -18754
+# * Y = -104
+# Value of Z =   1950416
+# Passed!!!!
+#   X = -17203
+# * Y = -103
+# Value of Z =   1771909
+# Passed!!!!
+#   X = -23541
+# * Y = -102
+# Value of Z =   2401182
+# Passed!!!!
+#   X = -28962
+# * Y = -101
+# Value of Z =   2925162
+# Passed!!!!
+#   X =  -9585
+# * Y = -100
+# Value of Z =    958500
+# Passed!!!!
+#   X =  24814
+# * Y =  -99
+# Value of Z =  -2456586
+# Passed!!!!
+#   X =  13203
+# * Y =  -98
+# Value of Z =  -1293894
+# Passed!!!!
+#   X =  13055
+# * Y =  -97
+# Value of Z =  -1266335
+# Passed!!!!
+#   X =   1612
+# * Y =  -96
+# Value of Z =   -154752
+# Passed!!!!
+#   X =    783
+# * Y =  -95
+# Value of Z =    -74385
+# Passed!!!!
+#   X =  -4797
+# * Y =  -94
+# Value of Z =    450918
+# Passed!!!!
+#   X = -10976
+# * Y =  -93
+# Value of Z =   1020768
+# Passed!!!!
+#   X =   5189
+# * Y =  -92
+# Value of Z =   -477388
+# Passed!!!!
+#   X = -22736
+# * Y =  -91
+# Value of Z =   2068976
+# Passed!!!!
+#   X =  -6719
+# * Y =  -90
+# Value of Z =    604710
+# Passed!!!!
+#   X =  31041
+# * Y =  -89
+# Value of Z =  -2762649
+# Passed!!!!
+#   X = -15309
+# * Y =  -88
+# Value of Z =   1347192
+# Passed!!!!
+#   X =  19281
+# * Y =  -87
+# Value of Z =  -1677447
+# Passed!!!!
+#   X =  14082
+# * Y =  -86
+# Value of Z =  -1211052
+# Passed!!!!
+#   X =   7010
+# * Y =  -85
+# Value of Z =   -595850
+# Passed!!!!
+#   X =  10389
+# * Y =  -84
+# Value of Z =   -872676
+# Passed!!!!
+#   X =  -4750
+# * Y =  -83
+# Value of Z =    394250
+# Passed!!!!
+#   X = -26855
+# * Y =  -82
+# Value of Z =   2202110
+# Passed!!!!
+#   X = -16510
+# * Y =  -81
+# Value of Z =   1337310
+# Passed!!!!
+#   X = -28290
+# * Y =  -80
+# Value of Z =   2263200
+# Passed!!!!
+#   X = -28269
+# * Y =  -79
+# Value of Z =   2233251
+# Passed!!!!
+#   X = -32503
+# * Y =  -78
+# Value of Z =   2535234
+# Passed!!!!
+#   X =  24995
+# * Y =  -77
+# Value of Z =  -1924615
+# Passed!!!!
+#   X =  14050
+# * Y =  -76
+# Value of Z =  -1067800
+# Passed!!!!
+#   X =  13236
+# * Y =  -75
+# Value of Z =   -992700
+# Passed!!!!
+#   X =    528
+# * Y =  -74
+# Value of Z =    -39072
+# Passed!!!!
+#   X =   1476
+# * Y =  -73
+# Value of Z =   -107748
+# Passed!!!!
+#   X =  14611
+# * Y =  -72
+# Value of Z =  -1051992
+# Passed!!!!
+#   X = -10283
+# * Y =  -71
+# Value of Z =    730093
+# Passed!!!!
+#   X =  20033
+# * Y =  -70
+# Value of Z =  -1402310
+# Passed!!!!
+#   X = -22043
+# * Y =  -69
+# Value of Z =   1520967
+# Passed!!!!
+#   X =  26616
+# * Y =  -68
+# Value of Z =  -1809888
+# Passed!!!!
+#   X =  31222
+# * Y =  -67
+# Value of Z =  -2091874
+# Passed!!!!
+#   X =   -435
+# * Y =  -66
+# Value of Z =     28710
+# Passed!!!!
+#   X =  18950
+# * Y =  -65
+# Value of Z =  -1231750
+# Passed!!!!
+#   X =  20759
+# * Y =  -64
+# Value of Z =  -1328576
+# Passed!!!!
+#   X =   7191
+# * Y =  -63
+# Value of Z =   -453033
+# Passed!!!!
+#   X =     67
+# * Y =  -62
+# Value of Z =     -4154
+# Passed!!!!
+#   X =  -4569
+# * Y =  -61
+# Value of Z =    278709
+# Passed!!!!
+#   X =  32033
+# * Y =  -60
+# Value of Z =  -1921980
+# Passed!!!!
+#   X = -16840
+# * Y =  -59
+# Value of Z =    993560
+# Passed!!!!
+#   X =  32183
+# * Y =  -58
+# Value of Z =  -1866614
+# Passed!!!!
+#   X = -28600
+# * Y =  -57
+# Value of Z =   1630200
+# Passed!!!!
+#   X =   -412
+# * Y =  -56
+# Value of Z =     23072
+# Passed!!!!
+#   X =  25177
+# * Y =  -55
+# Value of Z =  -1384735
+# Passed!!!!
+#   X =  12435
+# * Y =  -54
+# Value of Z =   -671490
+# Passed!!!!
+#   X =  13417
+# * Y =  -53
+# Value of Z =   -711101
+# Passed!!!!
+#   X = -24416
+# * Y =  -52
+# Value of Z =   1269632
+# Passed!!!!
+#   X =   1657
+# * Y =  -51
+# Value of Z =    -84507
+# Passed!!!!
+#   X =  24471
+# * Y =  -50
+# Value of Z =  -1223550
+# Passed!!!!
+#   X = -10614
+# * Y =  -49
+# Value of Z =    520086
+# Passed!!!!
+#   X =   7306
+# * Y =  -48
+# Value of Z =   -350688
+# Passed!!!!
+#   X = -22374
+# * Y =  -47
+# Value of Z =   1051578
+# Passed!!!!
+#   X =  -6444
+# * Y =  -46
+# Value of Z =    296424
+# Passed!!!!
+#   X =  31403
+# * Y =  -45
+# Value of Z =  -1413135
+# Passed!!!!
+#   X =   -255
+# * Y =  -44
+# Value of Z =     11220
+# Passed!!!!
+#   X =  19643
+# * Y =  -43
+# Value of Z =   -844649
+# Passed!!!!
+#   X =  21066
+# * Y =  -42
+# Value of Z =   -884772
+# Passed!!!!
+#   X =   7372
+# * Y =  -41
+# Value of Z =   -302252
+# Passed!!!!
+#   X = -32082
+# * Y =  -40
+# Value of Z =   1283280
+# Passed!!!!
+#   X =  -4388
+# * Y =  -39
+# Value of Z =    171132
+# Passed!!!!
+#   X =   6937
+# * Y =  -38
+# Value of Z =   -263606
+# Passed!!!!
+#   X = -16147
+# * Y =  -37
+# Value of Z =    597439
+# Passed!!!!
+#   X =  19992
+# * Y =  -36
+# Value of Z =   -719712
+# Passed!!!!
+#   X = -27907
+# * Y =  -35
+# Value of Z =    976745
+# Passed!!!!
+#   X =  15387
+# * Y =  -34
+# Value of Z =   -523158
+# Passed!!!!
+#   X =  25870
+# * Y =  -33
+# Value of Z =   -853710
+# Passed!!!!
+#   X =   1230
+# * Y =  -32
+# Value of Z =    -39360
+# Passed!!!!
+#   X =  13598
+# * Y =  -31
+# Value of Z =   -421538
+# Passed!!!!
+#   X = -27481
+# * Y =  -30
+# Value of Z =    824430
+# Passed!!!!
+#   X =   1839
+# * Y =  -29
+# Value of Z =    -53331
+# Passed!!!!
+#   X =  -1494
+# * Y =  -28
+# Value of Z =     41832
+# Passed!!!!
+#   X =  -9921
+# * Y =  -27
+# Value of Z =    267867
+# Passed!!!!
+#   X =   8711
+# * Y =  -26
+# Value of Z =   -226486
+# Passed!!!!
+#   X = -21680
+# * Y =  -25
+# Value of Z =    542000
+# Passed!!!!
+#   X =  18144
+# * Y =  -24
+# Value of Z =   -435456
+# Passed!!!!
+#   X =  32096
+# * Y =  -23
+# Value of Z =   -738208
+# Passed!!!!
+#   X = -21131
+# * Y =  -22
+# Value of Z =    464882
+# Passed!!!!
+#   X =  19825
+# * Y =  -21
+# Value of Z =   -416325
+# Passed!!!!
+#   X =  12873
+# * Y =  -20
+# Value of Z =   -257460
+# Passed!!!!
+#   X =   8065
+# * Y =  -19
+# Value of Z =   -153235
+# Passed!!!!
+#   X =  23643
+# * Y =  -18
+# Value of Z =   -425574
+# Passed!!!!
+#   X =  -3695
+# * Y =  -17
+# Value of Z =     62815
+# Passed!!!!
+#   X =    597
+# * Y =  -16
+# Value of Z =     -9552
+# Passed!!!!
+#   X = -15454
+# * Y =  -15
+# Value of Z =    231810
+# Passed!!!!
+#   X =  23266
+# * Y =  -14
+# Value of Z =   -325724
+# Passed!!!!
+#   X = -27726
+# * Y =  -13
+# Value of Z =    360438
+# Passed!!!!
+#   X =  27986
+# * Y =  -12
+# Value of Z =   -335832
+# Passed!!!!
+#   X =  26051
+# * Y =  -11
+# Value of Z =   -286561
+# Passed!!!!
+#   X = -32024
+# * Y =  -10
+# Value of Z =    320240
+# Passed!!!!
+#   X =  14291
+# * Y =   -9
+# Value of Z =   -128619
+# Passed!!!!
+#   X = -28456
+# * Y =   -8
+# Value of Z =    227648
+# Passed!!!!
+#   X =   2532
+# * Y =   -7
+# Value of Z =    -17724
+# Passed!!!!
+#   X = -23886
+# * Y =   -6
+# Value of Z =    143316
+# Passed!!!!
+#   X =  -9228
+# * Y =   -5
+# Value of Z =     46140
+# Passed!!!!
+#   X = -13749
+# * Y =   -4
+# Value of Z =     54996
+# Passed!!!!
+#   X = -22011
+# * Y =   -3
+# Value of Z =     66033
+# Passed!!!!
+#   X = -18068
+# * Y =   -2
+# Value of Z =     36136
+# Passed!!!!
+#   X =  31765
+# * Y =   -1
+# Value of Z =    -31765
+# Passed!!!!
+#   X =  -9688
+# * Y =    0
+# Value of Z =         0
+# Passed!!!!
+#   X =  20006
+# * Y =    1
+# Value of Z =     20006
+# Passed!!!!
+#   X =  15842
+# * Y =    2
+# Value of Z =     31684
+# Passed!!!!
+#   X =   8246
+# * Y =    3
+# Value of Z =     24738
+# Passed!!!!
+#   X = -25511
+# * Y =    4
+# Value of Z =   -102044
+# Passed!!!!
+#   X =  -4025
+# * Y =    5
+# Value of Z =    -20125
+# Passed!!!!
+#   X = -23800
+# * Y =    6
+# Value of Z =   -142800
+# Passed!!!!
+#   X = -15785
+# * Y =    7
+# Value of Z =   -110495
+# Passed!!!!
+#   X = -25859
+# * Y =    8
+# Value of Z =   -206872
+# Passed!!!!
+#   X = -27544
+# * Y =    9
+# Value of Z =   -247896
+# Passed!!!!
+#   X =  14865
+# * Y =   10
+# Value of Z =    148650
+# Passed!!!!
+#   X =  26232
+# * Y =   11
+# Value of Z =    288552
+# Passed!!!!
+#   X = -27317
+# * Y =   12
+# Value of Z =   -327804
+# Passed!!!!
+#   X =  14472
+# * Y =   13
+# Value of Z =    188136
+# Passed!!!!
+#   X = -27770
+# * Y =   14
+# Value of Z =   -388780
+# Passed!!!!
+#   X =   2201
+# * Y =   15
+# Value of Z =     33015
+# Passed!!!!
+#   X =   -398
+# * Y =   16
+# Value of Z =     -6368
+# Passed!!!!
+#   X =  -9559
+# * Y =   17
+# Value of Z =   -162503
+# Passed!!!!
+#   X = -23356
+# * Y =   18
+# Value of Z =   -420408
+# Passed!!!!
+#   X = -21318
+# * Y =   19
+# Value of Z =   -405042
+# Passed!!!!
+#   X = -13502
+# * Y =   20
+# Value of Z =   -270040
+# Passed!!!!
+#   X =  32458
+# * Y =   21
+# Value of Z =    681618
+# Passed!!!!
+#   X =  -8444
+# * Y =   22
+# Value of Z =   -185768
+# Passed!!!!
+#   X =  20187
+# * Y =   23
+# Value of Z =    464301
+# Passed!!!!
+#   X =   8361
+# * Y =   24
+# Value of Z =    200664
+# Passed!!!!
+#   X =   8427
+# * Y =   25
+# Value of Z =    210675
+# Passed!!!!
+#   X =   3431
+# * Y =   26
+# Value of Z =     89206
+# Passed!!!!
+#   X =  -3332
+# * Y =   27
+# Value of Z =    -89964
+# Passed!!!!
+#   X =  -6055
+# * Y =   28
+# Value of Z =   -169540
+# Passed!!!!
+#   X = -15092
+# * Y =   29
+# Value of Z =   -437668
+# Passed!!!!
+#   X = -14611
+# * Y =   30
+# Value of Z =   -438330
+# Passed!!!!
+#   X = -26851
+# * Y =   31
+# Value of Z =   -832381
+# Passed!!!!
+#   X =  28492
+# * Y =   32
+# Value of Z =    911744
+# Passed!!!!
+#   X =  26413
+# * Y =   33
+# Value of Z =    871629
+# Passed!!!!
+#   X =  27705
+# * Y =   34
+# Value of Z =    941970
+# Passed!!!!
+#   X =  14654
+# * Y =   35
+# Value of Z =    512890
+# Passed!!!!
+#   X = -20867
+# * Y =   36
+# Value of Z =   -751212
+# Passed!!!!
+#   X =   2894
+# * Y =   37
+# Value of Z =    107078
+# Passed!!!!
+#   X =  -4683
+# * Y =   38
+# Value of Z =   -177954
+# Passed!!!!
+#   X =  -8865
+# * Y =   39
+# Value of Z =   -345735
+# Passed!!!!
+#   X = -32547
+# * Y =   40
+# Value of Z =  -1301880
+# Passed!!!!
+#   X = -20625
+# * Y =   41
+# Value of Z =   -845625
+# Passed!!!!
+#   X =  25446
+# * Y =   42
+# Value of Z =   1068732
+# Passed!!!!
+#   X =  32639
+# * Y =   43
+# Value of Z =   1403477
+# Passed!!!!
+#   X =  10837
+# * Y =   44
+# Value of Z =    476828
+# Passed!!!!
+#   X =  20880
+# * Y =   45
+# Value of Z =    939600
+# Passed!!!!
+#   X = -18451
+# * Y =   46
+# Value of Z =   -848746
+# Passed!!!!
+#   X =   9120
+# * Y =   47
+# Value of Z =    428640
+# Passed!!!!
+#   X =   6502
+# * Y =   48
+# Value of Z =    312096
+# Passed!!!!
+#   X =  -2639
+# * Y =   49
+# Value of Z =   -129311
+# Passed!!!!
+#   X = -25252
+# * Y =   50
+# Value of Z =  -1262600
+# Passed!!!!
+#   X = -14911
+# * Y =   51
+# Value of Z =   -760461
+# Passed!!!!
+#   X = -32212
+# * Y =   52
+# Value of Z =  -1675024
+# Passed!!!!
+#   X = -26670
+# * Y =   53
+# Value of Z =  -1413510
+# Passed!!!!
+#   X =  16632
+# * Y =   54
+# Value of Z =    898128
+# Passed!!!!
+#   X =  27106
+# * Y =   55
+# Value of Z =   1490830
+# Passed!!!!
+#   X = -23845
+# * Y =   56
+# Value of Z =  -1335320
+# Passed!!!!
+#   X =  15347
+# * Y =   57
+# Value of Z =    874779
+# Passed!!!!
+#   X =  30415
+# * Y =   58
+# Value of Z =   1764070
+# Passed!!!!
+#   X =   3075
+# * Y =   59
+# Value of Z =    181425
+# Passed!!!!
+#   X =  27767
+# * Y =   60
+# Value of Z =   1666020
+# Passed!!!!
+#   X =  -9196
+# * Y =   61
+# Value of Z =   -560956
+# Passed!!!!
+#   X =  -1858
+# * Y =   62
+# Value of Z =   -115196
+# Passed!!!!
+#   X = -20956
+# * Y =   63
+# Value of Z =  -1320228
+# Passed!!!!
+#   X =  -3327
+# * Y =   64
+# Value of Z =   -212928
+# Passed!!!!
+#   X = -32715
+# * Y =   65
+# Value of Z =  -2126475
+# Passed!!!!
+#   X =   6443
+# * Y =   66
+# Value of Z =    425238
+# Passed!!!!
+#   X =  21061
+# * Y =   67
+# Value of Z =   1411087
+# Passed!!!!
+#   X = -28688
+# * Y =   68
+# Value of Z =  -1950784
+# Passed!!!!
+#   X =   8790
+# * Y =   69
+# Value of Z =    606510
+# Passed!!!!
+#   X = -21524
+# * Y =   70
+# Value of Z =  -1506680
+# Passed!!!!
+#   X =  -2970
+# * Y =   71
+# Value of Z =   -210870
+# Passed!!!!
+#   X = -10550
+# * Y =   72
+# Value of Z =   -759600
+# Passed!!!!
+#   X = -14730
+# * Y =   73
+# Value of Z =  -1075290
+# Passed!!!!
+#   X =  18549
+# * Y =   74
+# Value of Z =   1372626
+# Passed!!!!
+#   X = -26489
+# * Y =   75
+# Value of Z =  -1986675
+# Passed!!!!
+#   X =  31664
+# * Y =   76
+# Value of Z =   2406464
+# Passed!!!!
+#   X =  27287
+# * Y =   77
+# Value of Z =   2101099
+# Passed!!!!
+#   X =  18563
+# * Y =   78
+# Value of Z =   1447914
+# Passed!!!!
+#   X =  15016
+# * Y =   79
+# Value of Z =   1186264
+# Passed!!!!
+#   X =  13722
+# * Y =   80
+# Value of Z =   1097760
+# Passed!!!!
+#   X =   3256
+# * Y =   81
+# Value of Z =    263736
+# Passed!!!!
+#   X = -19180
+# * Y =   82
+# Value of Z =  -1572760
+# Passed!!!!
+#   X =  -8503
+# * Y =   83
+# Value of Z =   -705749
+# Passed!!!!
+#   X = -28452
+# * Y =   84
+# Value of Z =  -2389968
+# Passed!!!!
+#   X = -20263
+# * Y =   85
+# Value of Z =  -1722355
+# Passed!!!!
+#   X =  -7503
+# * Y =   86
+# Value of Z =   -645258
+# Passed!!!!
+#   X = -32534
+# * Y =   87
+# Value of Z =  -2830458
+# Passed!!!!
+#   X =   3940
+# * Y =   88
+# Value of Z =    346720
+# Passed!!!!
+#   X =  21242
+# * Y =   89
+# Value of Z =   1890538
+# Passed!!!!
+#   X = -17027
+# * Y =   90
+# Value of Z =  -1532430
+# Passed!!!!
+#   X =   9483
+# * Y =   91
+# Value of Z =    862953
+# Passed!!!!
+#   X =  31581
+# * Y =   92
+# Value of Z =   2905452
+# Passed!!!!
+#   X =  -2277
+# * Y =   93
+# Value of Z =   -211761
+# Passed!!!!
+#   X =   3746
+# * Y =   94
+# Value of Z =    352124
+# Passed!!!!
+#   X = -14036
+# * Y =   95
+# Value of Z =  -1333420
+# Passed!!!!
+#   X = -20710
+# * Y =   96
+# Value of Z =  -1988160
+# Passed!!!!
+#   X = -26308
+# * Y =   97
+# Value of Z =  -2551876
+# Passed!!!!
+#   X = -16633
+# * Y =   98
+# Value of Z =  -1630034
+# Passed!!!!
+#   X =  27469
+# * Y =   99
+# Value of Z =   2719431
+# Passed!!!!
+#   X = -11748
+# * Y =  100
+# Value of Z =  -1174800
+# Passed!!!!
+#   X =  15709
+# * Y =  101
+# Value of Z =   1586609
+# Passed!!!!
+#   X = -11742
+# * Y =  102
+# Value of Z =  -1197684
+# Passed!!!!
+#   X =   3949
+# * Y =  103
+# Value of Z =    406747
+# Passed!!!!
+#   X =  -2908
+# * Y =  104
+# Value of Z =   -302432
+# Passed!!!!
+#   X =  -7810
+# * Y =  105
+# Value of Z =   -820050
+# Passed!!!!
+#   X = -27980
+# * Y =  106
+# Value of Z =  -2965880
+# Passed!!!!
+#   X = -20082
+# * Y =  107
+# Value of Z =  -2148774
+# Passed!!!!
+#   X =  17412
+# * Y =  108
+# Value of Z =   1880496
+# Passed!!!!
+#   X = -31841
+# * Y =  109
+# Value of Z =  -3470669
+# Passed!!!!
+#   X =  30085
+# * Y =  110
+# Value of Z =   3309350
+# Passed!!!!
+#   X =  21935
+# * Y =  111
+# Value of Z =   2434785
+# Passed!!!!
+#   X = -31289
+# * Y =  112
+# Value of Z =  -3504368
+# Passed!!!!
+#   X =  10176
+# * Y =  113
+# Value of Z =   1149888
+# Passed!!!!
+#   X =  -3557
+# * Y =  114
+# Value of Z =   -405498
+# Passed!!!!
+#   X =  -2096
+# * Y =  115
+# Value of Z =   -241040
+# Passed!!!!
+#   X =   9416
+# * Y =  116
+# Value of Z =   1092256
+# Passed!!!!
+#   X = -13855
+# * Y =  117
+# Value of Z =  -1621035
+# Passed!!!!
+#   X =  27880
+# * Y =  118
+# Value of Z =   3289840
+# Passed!!!!
+#   X = -25615
+# * Y =  119
+# Value of Z =  -3048185
+# Passed!!!!
+#   X =   3746
+# * Y =  120
+# Value of Z =    449520
+# Passed!!!!
+#   X =  27650
+# * Y =  121
+# Value of Z =   3345650
+# Passed!!!!
+#   X = -21991
+# * Y =  122
+# Value of Z =  -2682902
+# Passed!!!!
+#   X =  15890
+# * Y =  123
+# Value of Z =   1954470
+# Passed!!!!
+#   X = -25817
+# * Y =  124
+# Value of Z =  -3201308
+# Passed!!!!
+#   X =   3619
+# * Y =  125
+# Value of Z =    452375
+# Passed!!!!
+#   X =  27694
+# * Y =  126
+# Value of Z =   3489444
+# Passed!!!!
+
