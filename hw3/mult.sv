@@ -1,16 +1,8 @@
-module mult (Z_out, X_in, Y_in);
+module mult (Z, X, Y);
 	
-	input logic [7:0] Y_in;
-	input logic [15:0] X_in;
-	output logic [23:0] Z_out;
-	logic [7:0] Y;
-	logic [15:0] X;
-	logic [23:0] Z;
-
-	// 
-	assign Y = (Y_in[7] != 1) ? Y_in : ~Y_in + 00000001; // Conversion
-	assign X = (X_in[15] != 1) ? X_in : ~X_in + 000000000000001; // Conversion
-	//
+	input logic [7:0] Y;
+	input logic [15:0] X;
+	output logic [23:0] Z;
 
 	logic [15:0] P0;
 	logic [15:0] carry1;
@@ -37,10 +29,12 @@ module mult (Z_out, X_in, Y_in);
 	logic [15:0] carry8;
 	logic [15:0] sum8;
 	logic [22:0] carry9;
-
+	logic temp, temp0, temp1, temp2, temp3, temp4, temp5, 
+		  temp6, temp7, temp8, temp9, temp10, temp11, 
+		  temp12, temp13, temp14, temp15;
 
 	// generate the partial products.
-	and pp1(P0[15], X[15], Y[0]);
+	nand pp1(P0[15], X[15], Y[0]);
 	and pp2(P0[14], X[14], Y[0]);
 	and pp3(P0[13], X[13], Y[0]);
 	and pp4(P0[12], X[12], Y[0]);
@@ -56,7 +50,7 @@ module mult (Z_out, X_in, Y_in);
 	and pp14(P0[2], X[2], Y[0]);
 	and pp15(P0[1], X[1], Y[0]);
 	and pp16(P0[0], X[0], Y[0]);
-	and pp17(sum1[15], X[15], Y[1]);
+	nand pp17(sum1[15], X[15], Y[1]);
 	and pp18(P1[14], X[14], Y[1]);
 	and pp19(P1[13], X[13], Y[1]);
 	and pp20(P1[12], X[12], Y[1]);
@@ -72,7 +66,7 @@ module mult (Z_out, X_in, Y_in);
 	and pp30(P1[2], X[2], Y[1]);
 	and pp31(P1[1], X[1], Y[1]);
 	and pp32(P1[0], X[0], Y[1]);
-	and pp33(sum2[15], X[15], Y[2]);
+	nand pp33(sum2[15], X[15], Y[2]);
 	and pp34(P2[14], X[14], Y[2]);
 	and pp35(P2[13], X[13], Y[2]);
 	and pp36(P2[12], X[12], Y[2]);
@@ -88,7 +82,7 @@ module mult (Z_out, X_in, Y_in);
 	and pp46(P2[2], X[2], Y[2]);
 	and pp47(P2[1], X[1], Y[2]);
 	and pp48(P2[0], X[0], Y[2]);
-	and pp49(sum3[15], X[15], Y[3]);
+	nand pp49(sum3[15], X[15], Y[3]);
 	and pp50(P3[14], X[14], Y[3]);
 	and pp51(P3[13], X[13], Y[3]);
 	and pp52(P3[12], X[12], Y[3]);
@@ -104,7 +98,7 @@ module mult (Z_out, X_in, Y_in);
 	and pp62(P3[2], X[2], Y[3]);
 	and pp63(P3[1], X[1], Y[3]);
 	and pp64(P3[0], X[0], Y[3]);
-	and pp65(sum4[15], X[15], Y[4]);
+	nand pp65(sum4[15], X[15], Y[4]);
 	and pp66(P4[14], X[14], Y[4]);
 	and pp67(P4[13], X[13], Y[4]);
 	and pp68(P4[12], X[12], Y[4]);
@@ -120,7 +114,7 @@ module mult (Z_out, X_in, Y_in);
 	and pp78(P4[2], X[2], Y[4]);
 	and pp79(P4[1], X[1], Y[4]);
 	and pp80(P4[0], X[0], Y[4]);
-	and pp81(sum5[15], X[15], Y[5]);
+	nand pp81(sum5[15], X[15], Y[5]);
 	and pp82(P5[14], X[14], Y[5]);
 	and pp83(P5[13], X[13], Y[5]);
 	and pp84(P5[12], X[12], Y[5]);
@@ -136,7 +130,7 @@ module mult (Z_out, X_in, Y_in);
 	and pp94(P5[2], X[2], Y[5]);
 	and pp95(P5[1], X[1], Y[5]);
 	and pp96(P5[0], X[0], Y[5]);
-	and pp97(sum6[15], X[15], Y[6]);
+	nand pp97(sum6[15], X[15], Y[6]);
 	and pp98(P6[14], X[14], Y[6]);
 	and pp99(P6[13], X[13], Y[6]);
 	and pp100(P6[12], X[12], Y[6]);
@@ -170,7 +164,8 @@ module mult (Z_out, X_in, Y_in);
 	and pp128(P7[0], X[0], Y[7]);
 
 	// Array Reduction
-	half_adder  HA1(carry1[14],sum1[14],P1[14],P0[15]);
+	full_adder  HA1(carry1[14],sum1[14],P1[14],P0[15],1'b1); // Adding ULP
+	//half_adder  HA1(carry1[14],sum1[14],P1[14],P0[15]);
 	half_adder  HA2(carry1[13],sum1[13],P1[13],P0[14]);
 	half_adder  HA3(carry1[12],sum1[12],P1[12],P0[13]);
 	half_adder  HA4(carry1[11],sum1[11],P1[11],P0[12]);
@@ -178,7 +173,8 @@ module mult (Z_out, X_in, Y_in);
 	half_adder  HA6(carry1[9],sum1[9],P1[9],P0[10]);
 	half_adder  HA7(carry1[8],sum1[8],P1[8],P0[9]);
 	half_adder  HA8(carry1[7],sum1[7],P1[7],P0[8]);
-	half_adder  HA9(carry1[6],sum1[6],P1[6],P0[7]);
+	full_adder  HA9(carry1[6],sum1[6],P1[6],P0[7],1'b1); // Adding ULP
+	//half_adder  HA9(carry1[6],sum1[6],P1[6],P0[7]);
 	half_adder  HA10(carry1[5],sum1[5],P1[5],P0[6]);
 	half_adder  HA11(carry1[4],sum1[4],P1[4],P0[5]);
 	half_adder  HA12(carry1[3],sum1[3],P1[3],P0[4]);
@@ -260,21 +256,37 @@ module mult (Z_out, X_in, Y_in);
 	full_adder  FA73(carry6[2],sum6[2],P6[2],sum5[3],carry5[2]);
 	full_adder  FA74(carry6[1],sum6[1],P6[1],sum5[2],carry5[1]);
 	full_adder  FA75(carry6[0],sum6[0],P6[0],sum5[1],carry5[0]);
-	full_adder  FA76(carry7[14],sum7[14],P7[14],sum6[15],carry6[14]);
-	full_adder  FA77(carry7[13],sum7[13],P7[13],sum6[14],carry6[13]);
-	full_adder  FA78(carry7[12],sum7[12],P7[12],sum6[13],carry6[12]);
-	full_adder  FA79(carry7[11],sum7[11],P7[11],sum6[12],carry6[11]);
-	full_adder  FA80(carry7[10],sum7[10],P7[10],sum6[11],carry6[10]);
-	full_adder  FA81(carry7[9],sum7[9],P7[9],sum6[10],carry6[9]);
-	full_adder  FA82(carry7[8],sum7[8],P7[8],sum6[9],carry6[8]);
-	full_adder  FA83(carry7[7],sum7[7],P7[7],sum6[8],carry6[7]);
-	full_adder  FA84(carry7[6],sum7[6],P7[6],sum6[7],carry6[6]);
-	full_adder  FA85(carry7[5],sum7[5],P7[5],sum6[6],carry6[5]);
-	full_adder  FA86(carry7[4],sum7[4],P7[4],sum6[5],carry6[4]);
-	full_adder  FA87(carry7[3],sum7[3],P7[3],sum6[4],carry6[3]);
-	full_adder  FA88(carry7[2],sum7[2],P7[2],sum6[3],carry6[2]);
-	full_adder  FA89(carry7[1],sum7[1],P7[1],sum6[2],carry6[1]);
-	full_adder  FA90(carry7[0],sum7[0],P7[0],sum6[1],carry6[0]);
+	
+	full_adder  FA76(temp14,sum7[14],P7[14],sum6[15],carry6[14]);
+	not n14(carry7[14], temp14);
+	full_adder  FA77(temp13,sum7[13],P7[13],sum6[14],carry6[13]);
+	not n13(carry7[13], temp13);
+	full_adder  FA78(temp12,sum7[12],P7[12],sum6[13],carry6[12]);
+	not n12(carry7[12], temp12);
+	full_adder  FA79(temp11,sum7[11],P7[11],sum6[12],carry6[11]);
+	not n11(carry7[11], temp11);
+	full_adder  FA80(temp10,sum7[10],P7[10],sum6[11],carry6[10]);
+	not n10(carry7[10], temp10);
+	full_adder  FA81(temp9,sum7[9],P7[9],sum6[10],carry6[9]);
+	not n9(carry7[9], temp9);
+	full_adder  FA82(temp8,sum7[8],P7[8],sum6[9],carry6[8]);
+	not n8(carry7[8], temp8);
+	full_adder  FA83(temp7,sum7[7],P7[7],sum6[8],carry6[7]);
+	not n7(carry7[7], temp7);
+	full_adder  FA84(temp6,sum7[6],P7[6],sum6[7],carry6[6]);
+	not n6(carry7[6], temp6);
+	full_adder  FA85(temp5,sum7[5],P7[5],sum6[6],carry6[5]);
+	not n5(carry7[5], temp5);
+	full_adder  FA86(temp4,sum7[4],P7[4],sum6[5],carry6[4]);
+	not n4(carry7[4], temp4);
+	full_adder  FA87(temp3,sum7[3],P7[3],sum6[4],carry6[3]);
+	not n3(carry7[3], temp3);
+	full_adder  FA88(temp2,sum7[2],P7[2],sum6[3],carry6[2]);
+	not n2(carry7[2], temp2);
+	full_adder  FA89(temp1,sum7[1],P7[1],sum6[2],carry6[1]);
+	not n1(carry7[1], temp1);
+	full_adder  FA90(temp0,sum7[0],P7[0],sum6[1],carry6[0]);
+	not n0(carry7[0], temp0);
 
 	// Generate lower product bits YBITS 
 	buf b1(Z[0], P0[0]);
@@ -301,9 +313,10 @@ module mult (Z_out, X_in, Y_in);
 	full_adder CPA12(carry8[11],Z[19],carry7[11],carry8[10],sum7[12]);
 	full_adder CPA13(carry8[12],Z[20],carry7[12],carry8[11],sum7[13]);
 	full_adder CPA14(carry8[13],Z[21],carry7[13],carry8[12],sum7[14]);
-	full_adder CPA15(Z[23],Z[22],carry7[14],carry8[13],sum7[15]);
+	full_adder CPA15(temp,Z[22],carry7[14],carry8[13],sum7[15]);
 
-	assign Z_out = (((Y_in[7] != 1) && (X_in[15] != 1)) || ((Y_in[7] == X_in[15]))) ? Z : ~Z + 000000000000000000000001; // Conversion
+	not n15(Z[23], temp);
+
 endmodule
 
 
@@ -316,7 +329,6 @@ module half_adder (Cout, Sum, A, B);
    and and1(Cout,A,B);
 
 endmodule // ha
-
 
 module full_adder (Cout, Sum, A, B, Cin);
 

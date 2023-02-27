@@ -5,7 +5,7 @@ module mult_tb ();;
 
     always clk = #5 ~clk;
     logic signed [15:0] X;
-    logic signed [7:0] Y;
+    logic signed [7:0]  Y;
     logic signed [23:0] Z;
 
     initial begin
@@ -13,10 +13,10 @@ module mult_tb ();;
         assign Y = -128;
     end
 
-    mult mut (.X_in(X),
-              .Y_in(Y),
-              .Z_out(Z));
-
+    mult mut (.X(X),
+              .Y(Y),
+              .Z(Z));
+            
     integer seed = 1000; // change seed to generate new random numbers
 
     integer count = 0;
